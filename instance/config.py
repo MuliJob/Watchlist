@@ -1,1 +1,3 @@
 MOVIE_API_KEY = '562a2669df658754fe5e32837560e335'
+SECRET_KEY = '&\xa7\xda^`\x84\x9e\xd2+jW\xc6#\xde\xb9)\xe2Y\x00\x94CVA\x02u\xf15\x85J\xa6D\xab'
+
