@@ -10,7 +10,7 @@ def create_app(config_name):
 
     # Creating the app configurations
     app.config.from_object(config_options[config_name])
-
+    app.config.from_pyfile("config.py")
     # Initializing flask extensions
     bootstrap.init_app(app)
     
@@ -23,5 +23,7 @@ def create_app(config_name):
     configure_request(app)
 
     # Will add the views and forms
+    from app import views
+    from app import error
     
     return app
